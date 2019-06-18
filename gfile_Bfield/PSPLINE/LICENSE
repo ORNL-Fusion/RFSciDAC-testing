@@ -1,0 +1,15 @@
+NTCC Agreement
+Conditions For Use of NTCC Software Modules
+The National Transport Code Collaboration (NTCC) is a U.S. Department of Energy (DOE) supported activity designed to facilitate research towards development of fusion energy as a potential energy source for the future. A part of this activity is to provide a mechanism for sharing of commonly used software tools in the modeling of magnetically confined fusion plasmas via the NTCC Modules Library website https://w3.pppl.gov/NTCC.
+
+While this site allows public download of source code and build procedures for said software, recipients are required to agree to terms of use as outlined below. These terms of use are meant to facilitate ongoing collaboration, continued distribution of fixes and improvements to the software by authors, communication on software performance by users, and appropriate acknowledgement of the authors' contributions.
+
+The NTCC Modules Library codes represent the work of multiple authors from several institutions. Each code is accompanied with instructions for build and use, as well as a summary of capability, often accompanied with references to published literature that gives more detailed descriptions. The documentation contains contact information for the software authors and/or PPPL support personnel. The NTCC codes do not contain any nuclear material information or information that can be used for the design or development of nuclear, biological, or chemical weapons or of any weapons of mass destruction. The code does not contain any proprietary or commercially owned information.
+
+The NTCC website is supported by personnel at the Princeton Plasma Physics Laboratory (PPPL), under grants and contracts funded by the US Department of Energy.
+
+In order to receive the software, the recipient agrees to the following terms of use:
+The NTCC code will be used only for peaceful fundamental research related to plasma physics and magnetic confinement fusion energy.
+The scientific results from the use of the NTCC code are intended for publication and sharing in the open scientific community.
+The recipient will not rename, modify or redistribute the code, in whole or in part, to 3rd parties without consent of the authors, although the code may be imbedded unmodified and shared within a larger software project. If modifications or improvements are needed, these will be developed in collaboration with the authors, so that they may be redistributed through the NTCC website to the benefit of all NTCC users. Such collaborations are encouraged, although it may be necessary to use an alternative mechanism for source code sharing, since the NTCC distribution supports unidirectional downloads only.
+The recipient assumes responsibility for proper use of the NTCC code, understanding that PPPL and module authors can only provide limited support.
