@@ -1,5 +1,5 @@
 
-Building PSPLINE libraries
+Building 
 - I did not bother making a nice build system, feel free!
 - This just has a shell script for ezcdf and I make a dead-simple cmake for Pspline
 
@@ -7,7 +7,7 @@ Instructions starting with $ are shell commands, comments/notes are in parenthes
 
 1) Build Pspline libraries (required for ezfit method)
 
-from gfile_Bfield
+from gfile_Bfield directory
 $cd PSPLINE/ezcdf
 modify build.sh and change NETCDF_INC_DIR and FC if necessary
 $./build.sh
@@ -20,8 +20,30 @@ Should have created libpspline.a
 
 2) Build ezfit
 
-from gfile_Bfield
-edit build.sh to turn on DEBUG during preprocessing
+from gfile_Bfield directory
+$cd ezfit
+edit build.sh to turn on DEBUG during preprocessing if desired
 $./build.sh
 
-3) 
+3) Test ezfit read and evaluate routines
+
+from gfile_Bfield directory
+$cd test_ezfit
+$./build.sh
+$./test_ezfit
+Should output B components for range of R and Z values
+
+4) Build util-library (simplified version of Jeremy's routines)
+
+from gfile_Bfield directory
+$cd util-library
+$./build.sh
+Should make libutil.a
+
+5) Test util read and evaluate routines
+
+from gfile_Bfield directory
+$cd test_util
+$./build.sh (note, requires lapack)
+$./test_util
+
