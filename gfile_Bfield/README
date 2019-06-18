@@ -1,0 +1,27 @@
+
+Building PSPLINE libraries
+- I did not bother making a nice build system, feel free!
+- This just has a shell script for ezcdf and I make a dead-simple cmake for Pspline
+
+Instructions starting with $ are shell commands, comments/notes are in parentheses
+
+1) Build Pspline libraries (required for ezfit method)
+
+from gfile_Bfield
+$cd PSPLINE/ezcdf
+modify build.sh and change NETCDF_INC_DIR and FC if necessary
+$./build.sh
+Should have created libezcdf.a
+$cd ../Pspline
+Edit CmakeLists.txt and change compiler flags if not using gcc/gfortran
+$cmake .
+$make
+Should have created libpspline.a
+
+2) Build ezfit
+
+from gfile_Bfield
+edit build.sh to turn on DEBUG during preprocessing
+$./build.sh
+
+3) 
